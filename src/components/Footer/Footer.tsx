@@ -3,7 +3,7 @@ import style from './Footer.module.scss'
 export const Footer = () => {
   return (
     <footer className={style.footer}>
-      <div className={style.about}>
+      <div>
         <h4>О компании</h4>
         <ul>
           <li><a href="#">Партнёрская программа</a></li>

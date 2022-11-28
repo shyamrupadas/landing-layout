@@ -1,3 +1,26 @@
-.mainLayout {
-  border: 1px solid #ffffff
+.main {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.625rem;
+
+  .header {
+
+    h1 {
+      font-size: 3rem;
+      line-height: 3.625rem;
+      margin-bottom: 1.875rem;
+
+      strong {
+        display: block;
+        font-weight: 900;
+      }
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.125rem;
+    }
+  }
+
 }

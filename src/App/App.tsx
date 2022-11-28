@@ -8,6 +8,6 @@ export const App = () => (
   <Layout>
     <Header />
     <Main />
-    {/*<Footer />*/}
+    <Footer />
   </Layout>
 )

@@ -1,3 +1,55 @@
-.mainLayout {
-  border: 1px solid #ffffff
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.0625rem;
+    text-transform: uppercase;
+    color: #656566;
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #E4E5EA;
+
+    transition: opacity 0.3s;
+
+    :hover {
+      opacity: 0.7;
+    }
+  }
+
+
+  li {
+    line-height: 1.1875rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .about {
+
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 26rem;
+  }
+
+  .contacts {
+    .copyright {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.75rem;
+      line-height: 0.906rem;
+      margin-top: 4.375rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .privacy {
+      text-decoration: underline;
+      margin-top: 0.3125rem;
+    }
+  }
 }

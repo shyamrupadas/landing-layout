@@ -1,9 +1,8 @@
 .main {
   display: flex;
   justify-content: space-between;
-  flex-grow: 1;
   margin-top: 5.625rem;
-  //margin-bottom: 7.75rem;
+  margin-bottom: 7.75rem;
 
   .header {
 
@@ -46,7 +45,6 @@
         text-transform: none;
         background: none;
         -webkit-text-fill-color: #E4E5EA;
-        text-fill-color: #E4E5EA;
       }
     }
 
@@ -82,6 +80,7 @@
       color: #E4E5EA;
       font-size: inherit;
       transition: background 0.3s;
+      border: none;
 
       &:hover {
         background: rgba(64, 119, 243, 0.7);

@@ -22,7 +22,7 @@ export const Header = () => {
         </ul>
       </menu>
       <div className={style.contacts}>
-        <span>+7&nbsp;555&nbsp;555-55-55</span>
+        <a href="tel:+75555555555">+7&nbsp;555&nbsp;555-55-55</a>
         <a href="#"><img className={style.item} src="/telegram.svg" alt="telegram" /></a>
         <a href="#"><img className={style.item} src="/phone.svg" alt="phone" /></a>
         <a href="#"><img className={style.item} src="/whatsapp.svg" alt="whatsapp" /></a>

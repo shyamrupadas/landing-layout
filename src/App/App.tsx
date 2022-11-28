@@ -7,7 +7,7 @@ import { Layout } from '../components/Layout';
 export const App = () => (
   <Layout>
     <Header />
-    {/*<Main />*/}
+    <Main />
     {/*<Footer />*/}
   </Layout>
 )

@@ -13,44 +13,46 @@ export const Main = () => {
           продажи за&nbsp;вас
         </h2>
       </header>
-      <div>
+      <div className={style.bullets}>
         <h3>
-          Вместе с&nbsp;бесплатной консультацией мы&nbsp;дарим:
+          <span className={style.normal}>Вместе с</span>&nbsp;бесплатной<br />консультацией <span
+          className={style.normal}>мы&nbsp;дарим:</span>
         </h3>
-        <ul>
+        <ul className={style.bulletsItems}>
           <li>
             <h4>
-              Header
+              Виджеты
             </h4>
-            <div>
-              Content content content content
+            <div className={style.content}>
+              30&nbsp;готовых<br />решений
             </div>
           </li>
           <li>
             <h4>
-              Header
+              Dashboard
             </h4>
-            <div>
-              Content content content content
+            <div className={style.content}>
+              с&nbsp;показателями<br />вашего бизнеса
             </div>
           </li>
           <li>
             <h4>
-              Header
+              Skype Аудит
             </h4>
-            <div>
-              Content content content content
+            <div className={style.content}>
+              отдела продаж<br />и&nbsp;CRM системы
             </div>
           </li>
           <li>
             <h4>
-              Header
+              35&nbsp;дней
             </h4>
-            <div>
-              Content content content content
+            <div className={style.content}>
+              использования<br />CRM
             </div>
           </li>
         </ul>
+        <button onClick={() => {}}>Получить консультацию</button>
       </div>
     </main>
   )

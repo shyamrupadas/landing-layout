@@ -68,9 +68,44 @@
   }
 }
 
+.mobile {
+  display: none;
+}
+
 @media (max-width: 770px) {
   .footer {
+    flex-direction: column;
+    background: #0E1014;
+    padding: 1.25rem 1rem 3.75rem;
+
+    li {
+      font-size: 0.875rem;
+    }
+
+    h4 {
+      margin-top: 1.25rem;
+    }
+
+    .menu {
+      width: 18rem;
+      justify-content: space-between;
+
+      ul {
+        width: 43%;
+      }
+    }
+
+    .contacts {
+      text-align: left;
+    }
+  }
+
+  .desktop {
     display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 }
 

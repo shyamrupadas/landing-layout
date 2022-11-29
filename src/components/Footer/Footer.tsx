@@ -22,7 +22,8 @@ export const Footer = () => {
           </ul>
           <ul>
             <li><a href="#">Кейсы</a></li>
-            <li><a href="#">Благодарственные письма</a></li>
+            <li className={style.desktop}><a href="#">Благодарственные письма</a></li>
+            <li className={style.mobile}><a href="#">Благодарность клиентов</a></li>
             <li><a href="#">Сертификаты</a></li>
             <li><a href="#">Блог на Youtube</a></li>
             <li><a href="#">Вопрос / Ответ</a></li>

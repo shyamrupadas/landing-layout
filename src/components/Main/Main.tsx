@@ -20,7 +20,10 @@ export const Main = () => {
         </h3>
         <ul className={style.bulletsItems}>
           <li>
-            <h4>
+            <h4 className={style.desktop}>
+              Виджеты
+            </h4>
+            <h4 className={style.mobile}>
               Виджеты
             </h4>
             <div className={style.content}>
@@ -52,7 +55,7 @@ export const Main = () => {
             </div>
           </li>
         </ul>
-        <button onClick={() => {}}>Получить консультацию</button>
+        <button className={style.desktop} onClick={() => {}}>Получить консультацию</button>
       </div>
     </main>
   )

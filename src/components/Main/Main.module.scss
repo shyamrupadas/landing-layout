@@ -86,10 +86,65 @@
         background: rgba(64, 119, 243, 0.7);
         cursor: pointer;
       }
+
       &:active {
         transform: translateY(3px);
       }
     }
   }
+}
 
+.mobile {
+  display: none;
+}
+
+@media (max-width: 770px) {
+  .main {
+    justify-content: left;
+    flex-direction: column;
+    margin: 0;
+    padding: 2.5rem 0.875rem 3.75rem;
+
+    .header {
+      h1 {
+        font-size: 2.25rem;
+        line-height: 2.71875rem;
+        margin-bottom: 0.9375rem;
+      }
+
+      h2 {
+        margin-bottom: 2.8125rem;
+      }
+    }
+
+    .bullets {
+      text-align: left;
+      margin-bottom: 1.25rem;
+
+      h3 {
+       text-transform: none;
+      }
+
+      .bulletsItems {
+
+        h4 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 0.9135rem;
+          line-height: 1rem;
+        }
+
+        .content {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }

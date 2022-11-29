@@ -66,33 +66,49 @@
 
 @media (max-width: 770px) {
   .backdrop {
+    width: 320px;
+    background: url('public/noise.png');
+    mix-blend-mode: normal;
 
     .purpleBall {
       position: absolute;
-      width: 259px;
-      height: 259px;
-      left: 50px;
-      top: 50px;
-
-      background: #833AB4;
-      opacity: 0.5;
-      filter: blur(196px);
+      width: 40px;
+      height: 40px;
+      left: 290px;
+      top: 290px;
     }
 
     .redBall {
+      position: absolute;
+      width: 43px;
+      height: 43px;
+      left: 29px;
+      top: 472px;
+      filter: blur(5px);
     }
 
     .smallRedBall {
-      left: 100px;
-      top: 200px;
+      display: none;
     }
 
     .redLight {
+      position: absolute;
+      width: 211px;
+      height: 210px;
+      left: -55px;
+      top: 308px;
+      filter: blur(196px);
     }
 
     .purpleLight {
-      left: 200px;
-      top: -100px;
+      position: absolute;
+      width: 259px;
+      height: 259px;
+      left: 258px;
+      top: 165px;
+      background: #833AB4;
+      opacity: 0.5;
+      filter: blur(196px);
     }
 
   }

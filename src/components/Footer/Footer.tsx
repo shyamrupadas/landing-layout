@@ -20,10 +20,10 @@ export const Footer = () => {
             <li><a href="#">Интеграции</a></li>
             <li><a href="#">Наши клиенты</a></li>
           </ul>
-          <ul>
+          <ul className={style.flex}>
             <li><a href="#">Кейсы</a></li>
             <li className={style.desktop}><a href="#">Благодарственные письма</a></li>
-            <li className={style.mobile}><a href="#">Благодарность клиентов</a></li>
+            <li className={`${style.mobile} ${style.order1}`}><a href="#">Благодарность клиентов</a></li>
             <li><a href="#">Сертификаты</a></li>
             <li><a href="#">Блог на Youtube</a></li>
             <li><a href="#">Вопрос / Ответ</a></li>

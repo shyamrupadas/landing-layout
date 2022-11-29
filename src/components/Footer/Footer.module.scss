@@ -68,6 +68,11 @@
   }
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .mobile {
   display: none;
 }
@@ -114,6 +119,10 @@
         margin-bottom: 0;
       }
     }
+  }
+
+  .order1 {
+    order: -1;
   }
 
   .desktop {

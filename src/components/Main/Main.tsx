@@ -41,7 +41,7 @@ export const Main = () => {
               с&nbsp;показателями<br />вашего бизнеса
             </div>
           </li>
-          <li>
+          <li className={style.order1}>
             <h4 className={style.desktop}>
               Skype Аудит
             </h4>

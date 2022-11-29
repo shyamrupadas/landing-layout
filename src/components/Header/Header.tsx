@@ -17,7 +17,7 @@ export const Header = () => {
           <ul className={style.menu}>
             <li className={style.item}><a href="#">Услуги</a></li>
             <li className={style.item}><a href="#">Виджеты</a></li>
-            <li className={style.item}><a href="#">Интеграция</a></li>
+            <li className={style.item}><a href="#">Интеграции</a></li>
             <li className={style.item}><a href="#">Кейсы</a></li>
             <li className={`${style.item} ${style.desktop}`}><a href="#">Сертификаты</a></li>
           </ul>

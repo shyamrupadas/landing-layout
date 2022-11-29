@@ -97,6 +97,22 @@
 
     .contacts {
       text-align: left;
+
+      li {
+        margin-bottom: 0.75rem;
+      }
+
+      .social {
+        width: 1.25rem;
+      }
+
+      .copyright {
+        //font-family: 'Montserrat', sans-serif;
+        //font-size: 0.75rem;
+        //line-height: 0.906rem;
+        margin-top: 2.375rem;
+        margin-bottom: 0;
+      }
     }
   }
 

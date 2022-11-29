@@ -24,14 +24,17 @@ export const Main = () => {
               Виджеты
             </h4>
             <h4 className={style.mobile}>
-              Виджеты
+              30 Виджетов
             </h4>
             <div className={style.content}>
               30&nbsp;готовых<br />решений
             </div>
           </li>
           <li>
-            <h4>
+            <h4 className={style.desktop}>
+              Dashboard
+            </h4>
+            <h4 className={style.mobile}>
               Dashboard
             </h4>
             <div className={style.content}>
@@ -39,7 +42,10 @@ export const Main = () => {
             </div>
           </li>
           <li>
-            <h4>
+            <h4 className={style.desktop}>
+              Skype Аудит
+            </h4>
+            <h4 className={style.mobile}>
               Skype Аудит
             </h4>
             <div className={style.content}>
@@ -47,8 +53,11 @@ export const Main = () => {
             </div>
           </li>
           <li>
-            <h4>
+            <h4 className={style.desktop}>
               35&nbsp;дней
+            </h4>
+            <h4 className={style.mobile}>
+              Месяц аmoCRM
             </h4>
             <div className={style.content}>
               использования<br />CRM

@@ -126,11 +126,25 @@
       }
 
       .bulletsItems {
+        justify-content: left;
 
         h4 {
           font-family: 'Montserrat', sans-serif;
           font-size: 0.9135rem;
           line-height: 1rem;
+        }
+
+        ul {
+          //list-style-type: #x1F514;
+        }
+
+        li {
+          padding-left: 0.875rem;
+          padding-top: 0.875rem;
+
+          &:before {
+            //content: "+";
+          }
         }
 
         .content {

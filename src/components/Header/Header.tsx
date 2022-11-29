@@ -3,7 +3,7 @@ import style from './Header.module.scss'
 export const Header = () => {
   return (
     <header className={style.header}>
-      <div className={style.flex}>
+      <div className={style.left}>
         <div className={style.logo}>
           <a href="/" className={style.logoImg}>
             <img src="/logo_velbex_1.svg" alt="logo" />
@@ -19,7 +19,7 @@ export const Header = () => {
             <li className={style.item}><a href="#">Виджеты</a></li>
             <li className={style.item}><a href="#">Интеграция</a></li>
             <li className={style.item}><a href="#">Кейсы</a></li>
-            <li className={style.item}><a href="#">Сертификаты</a></li>
+            <li className={`${style.item} ${style.desktop}`}><a href="#">Сертификаты</a></li>
           </ul>
         </menu>
       </div>

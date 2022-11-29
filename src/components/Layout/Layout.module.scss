@@ -1,5 +1,10 @@
 .mainLayout {
   margin: 0 auto;
-  //padding: 2.875rem 9.375rem 0;
   width: 1140px;
+}
+
+@media (max-width: 770px) {
+  .mainLayout {
+    width: 320px;
+  }
 }

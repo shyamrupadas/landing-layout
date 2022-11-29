@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://shyam-landing-layout.netlify.app/
+https://shyam-landing-layout.netlify.app
 
 ## Макет 
 
